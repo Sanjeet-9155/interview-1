@@ -1,0 +1,49 @@
+Components
+Reeact compnent is individual and reuseable unit of code.
+it is same as function in js but return HTML.
+
+A piece of code that can reuse.
+but more powerful than function.
+compnent daja pwoerful hota hai becoze
+ Eski apni lifecycle hota hai.
+ eski apni status hoa hai props hota hai. or 
+prarmeter pass karne ke tarike hai alag
+ex- header , footer , sidenav, maincontent
+
+
+2 types 
+CLass components perfrom slow hai compare to function components.
+class compnents ke undr lifecycle hota hai.
+
+1. compnent mount() {
+     first time call hoga.
+}
+
+2.compount didMount () {
+     update hoga jab call hoga.
+}
+
+3.compnent unmount(){
+      compnents remove hoga.
+} 
+
+to lifecycle ko function compnent me UseEffect  hook ke through se use karte hai.
+
+useEffect () => {    //useeffct ak callback function let hai
+     
+} []); jo compnents render hoga tab call hoga uske bad kabhi call nhi hoga.
+
+
+UseEffct (() => {
+     
+} [count] );
+
+jab bhi count ki value vhange hoga tab particular chije useEffect event re-run karega.
+
+
+UseEffect( () => {
+   return() =>
+}, [] );
+
+umount tab call hoga jab compnent clar ya romove hoga.
+ex-home page pe hai jab about pe jate hai tab tab jake return logic call hoga.

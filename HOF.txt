@@ -1,0 +1,12 @@
+CALLBACK
+A callback function is a function that is passed as a argsment to anther function
+
+HIGHER ORDER FUNCTION
+higher order function which takes another function as a argments.
+
+Asychronse operations- are operations that do not block excute of the code.
+Settimeout is the synchrons function which excutes callback function after a specfic period of time.
+
+promise- is js are a way to handled asychronse operations.
+promise can be in one of three states.
+resolved, reject, pending.

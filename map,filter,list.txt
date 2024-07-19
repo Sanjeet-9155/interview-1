@@ -1,0 +1,10 @@
+MAP, FILTER,LIST
+- map functin same length me arry retrun krta hai 
+      (new arry return karta hai).
+Maap se karte hai for loop se q nhi
+-return statememt 
+  maap ko -----support karat hai.
+  or maap ke throght list bhi bna sakt hai.
+
+Filter-boolean return karta hai(modify nhi kar sakte hai)
+      -filter me se kuch value ko nikal  kar ka new create krta hai.

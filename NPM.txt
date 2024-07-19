@@ -1,0 +1,16 @@
+NPM-(node pacakge mangmar) jo node_modules ko mange kara hai 
+ex- koie package install krna ho to .
+    NPM Install package.name se package create karte sakte hai.
+
+package.json
+kisi bhi file ka package ka name, version, command or gitne hamre package dal rake hai o milte hai.
+
+package-lock.json
+Isme package.json ki deatils rakhta hai or Hamre Gitne package hote hai Uski history rakhta hai.
+Uski control verion version controll.
+
+ex- Bebel-version
+resloved - kaha se installed huaa hai.
+integrity -
+har package ka dependency rakta hai or 
+package.json or node_modules history or details rakhta hai.

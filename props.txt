@@ -1,0 +1,31 @@
+PROPS
+props stands for properties.
+props are used to transfer data from one compnents to another compnent.
+props are read only (we cannt change the value props)
+prpos are just like a function in js.
+send data child to parent.
+
+props drilling
+parent ke under data hai ---childC me data tranfer krna hai.
+-to parent me childA ko wrap karege or childB ko --childA -- childC ko childB krege.
+-props drilling is the process of passing down props throght multipoay layer of compnent.
+-Is me avoid kar sakte hai.
+
+Context API or useContext hooks use kar sakte hai.
+aple create , provider, cusomer
+-USko impot karte hai. or ak variable(data) lete hai
+ or <data.privoder> se wrap kerte hai.
+ or export {data}
+-pirf value ko pass krte hai wrap ke saath.
+-childC import kar ke directly data.cusomer 
+ ke throgh tranfer kar dete hai.
+
+or cusumer ke function ko accept karta hai.
+
+useContext hooks
+create, privder, usecoontext 
+-value ke liye createcoontext kate hai.
+- =bhir provder  ke saat wrtap kete hai or value ko bhi.
+- or export ketre hai 
+- childC import katege me useCoontext help se aap values ko 
+  passed kar sakte ho.

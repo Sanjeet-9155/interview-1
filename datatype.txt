@@ -1,0 +1,18 @@
+What is javascript?
+
+JavaScript is a programming language that is used to convert static web pages 
+into interactive and dynamic web pages.
+
+What id Data types?
+
+A data types determine the types of values that can be store a variable.
+primiative data types:- (Number, String, boolean, Undefined, null)
+primiavtive data types are immutable which means that cann't be changed or
+modifyy once they are created.
+They can be hold single value.
+
+
+Non-primivate data types:- Object, array
+Non-primivate data can hold multiplay value and methods.
+Non-primivate data are mutable & their can be changed.
+Non-primivate data are complex data types.

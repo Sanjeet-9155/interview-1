@@ -1,0 +1,15 @@
+
+JSX
+jsx stands for js xml or extension.
+with the help of jsx 
+we can write HTML and Js code in Reeact.
+or ham reeact appliaction me aadha se jadaHTml code. likh sakte hai.
+
+reeactjs-- App.js me HTml likte hai usko bolte hai JSX.
+
+jsx---->BEBEL------>JS
+       compile(convert)
+
+js me bhi html likh sakte hai likin bhut lendi hoga.
+
+Isliye lendi code ko hatane ke liye jxs me likhte hai.

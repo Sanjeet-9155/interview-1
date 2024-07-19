@@ -1,0 +1,16 @@
+
+STATS
+sttus bascally ak object hai.
+jaise variable hota hai------- ham uske under value store krate hai.
+to ham staus me kuch na kuch Data store karte hai.
+
+jab ham variable use karte hai compnents update nhi hota hai.
+or jab sttus use karte hai to click krege or uske upper compnent ko 
+pata chal jata hai ki kuch na kuch update huaa hai or usko print kra dena hai.
+
+to variable ke case me yaisa nhi hota hai.
+
+USESTATS
+function compnent ke stat ko mange karene ke liye usestat hook ka use 
+kerte hai. usetstu us compnent ka total infromation hold kar kar rakhta hai.
+habi state change hoga compnent re-render hoga.kabhi

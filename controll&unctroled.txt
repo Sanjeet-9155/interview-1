@@ -1,0 +1,9 @@
+controlled and uncontrolled
+-They do not maintain thier own state.
+-data is controlled by te parent compnent.
+-they takes in the currebt value throght props and than notify the changes via caallbaks
+
+
+-they mantain thier own state.
+-data is controlled by the doom.
+-ref are used to grt thire current value.

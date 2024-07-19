@@ -1,0 +1,25 @@
+i am sanjeet kumar 
+i am bascally from sitamrhi in bihar,
+currently in leaving noida up.
+i have good langauge of js , react, htnl, css, redux, Axious.
+
+
+
+
+------------ patient application ---------- 
+
+this application for only patient.patient apne mobile number se login kr skta h. 
+login nhi h to sign up krega phir login kr skta h. home screen pe total doctor dikhat h, 
+patient apne anusar kisi v doctor ko select kr k appointment book kr skta h. 
+
+appointment book process 
+. appointment type ( In-clinic, virtual )
+. availbale slot select krna hota h
+. payment ka option aata h waha aap kisi v tarah se payment 
+  kr skte like UPI, Card, ( cash payment nhi  kr skte ho);
+. payment complete hone k bad aapko home screen pr re-direct kra dega or 
+  waha pr waha pr appointment dikhega jo apne book kiya h. 
+
+aap 15 mint pahle call join kr skte ho. 
+call complete hone k bad. priscription mil jayega. 
+priscript section k under.

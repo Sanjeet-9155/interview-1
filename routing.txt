@@ -1,0 +1,29 @@
+React router
+________________
+-react router i s a libray for handling routing and 
+ enables navigation and rending of different components 
+ based on the URL.
+
+ ROUTING and router
+ -Routing allows you to create a single page web-appliaction.
+  with navigation, without of different for a full-page refresh.
+
+  Implememt Routing
+  -npm install react-route-dom karna parta hai.
+   ye ak libray hai.
+   -jaha jaha react use karege waha routing use kar skte hai.
+- single page application with the help of riuting 
+- y eroot prided karba hai ye ye hamre project brower ka URL hota hai.
+impot --- {browerRouting} 
+           {App.js/}   to sare app.js me compnents rahta hai.
+        {browerRouting}   OR index.js entry point hai brower ka.
+
+
+  Router and routes
+  =the <routes> components is used as the root container 
+   for deaclering your collection of routes.
+
+   Routes parameter in react?
+   -Route prarmeter in react router are a way to pass dynamic values(data)
+    to the components as part of the URL path.
+

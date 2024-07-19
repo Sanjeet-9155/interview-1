@@ -1,0 +1,14 @@
+REDUX AND CONTEXT API
+1)redux ak external library hai jo reeact project ke under install
+  karni parta hai.
+OR context reaact ke under in build rahta hai.
+
+2)redux ko jab bhi apply karege to pure pure project compnents 
+  pe redux apply hoga to a redux ke redux aayga.
+OR TO Isliye context api ko yaisa nhi nhi hai esme aalag tarika se blog banta hai.
+ex_ jaise aap prui ke puri project le satke hai ya half project le sakte hai.
+     10 compnent le skate hai 2, 4 jitne chahe utna le sakte hai.
+     Isliye context api thora fixable hai.
+
+-context api ke throght child ka compnent parent me wrap karte hai.
+ child compnet to superchild me bhi aap wrap kar sakte hai.

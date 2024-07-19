@@ -1,0 +1,3 @@
+Click Event and Function
+ak buttom banayge or us upper click event define krege or 
+uske upper ak function click karege.
