@@ -1,7 +1,7 @@
 PROPS
 props stands for properties.
 props are used to transfer data from one compnents to another compnent.
-props are read only (we cannt change the value props)
+props are read only (we conn't change the value props)
 prpos are just like a function in js.
 send data child to parent.
 
