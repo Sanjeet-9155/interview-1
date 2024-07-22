@@ -1,7 +1,10 @@
 USEREF
 -function compnent me useref hook use karte hai.
--jo direct dom ___> manipulation kar ksrta hai
+-jo direct dom ___> manipulation kar karta hai
 -to kabhi kabhi directly state or props dom--manipulation karna hota hai.
 to us condition ke liye useref ka use karte hai.
+
+[useref ka use tab jab dirct node change karna hota hai.
+useref ak current value deta hai. giske throught value ko update kar sakte hai.]
 
 -dom ko handle karen ke liye function me useref ka use karte hai.
