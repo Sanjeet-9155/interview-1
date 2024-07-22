@@ -1,7 +1,7 @@
 USEREF
 -function compnent me useref hook use karte hai.
--jo direct doom ___> manipulation kar sakta hai
--to kabhi kabhi directly statt or props dome--manipulation karna hota hai.
+-jo direct dom ___> manipulation kar ksrta hai
+-to kabhi kabhi directly state or props dom--manipulation karna hota hai.
 to us condition ke liye useref ka use karte hai.
 
--doom ko handle karen ke liye function me useref ka use karte hai.
+-dom ko handle karen ke liye function me useref ka use karte hai.
