@@ -1,6 +1,22 @@
 React router
 ________________
--react router i s a libray for handling routing and 
+-React douter-dom ak library hai. 
+ jo react ke under <ruoting> karne ke liye use karte hai. 
+-React router dom ak browser router deta hai giske under ham apne components warap lar dete hai.
+<BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
+
+
+-react router is a libray for handling routing and 
  enables navigation and rending of different components 
  based on the URL.
 
