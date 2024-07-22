@@ -16,8 +16,7 @@ Rules of writing JXS
 -No if else condition inside but ternary operator is okay.
 Js expression in jsx must be wrapped in {}
 
-
-
+BEBEL is javacript compilar
 jsx---->BEBEL------>JS
        compile(convert)
 
