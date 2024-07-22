@@ -1,22 +1,23 @@
 REACT
-reeact is javascrript library 
+react is javascript library 
 the main focus is building UI as fast as possible.
-so this is used single page appliaction.
+so this is used single page application.
 means complete websites in single page.
 
 reeact direct database se connect nhi ho sakta hai.
 usko API ke throght karte hai.
 
-fx_ kisi reeact ke website aap Home pages pe hai --- uske bad about page pe jate hai to
+Ex_ kisi reeact ke website aap Home pages pe hai --- uske bad about page pe jate hai to
     without refresh page open ho jata hai .
    to esliye fast hai. to esko bolte hai single page application.
 
-why reeact fast ? 
-Reeact use karta hai vitual DOM ko 
+why react fast ? 
+React use karta hai vitual DOM ko 
 jo Real dom -----copy hai virtual dom
 
-DOM--(Documnet object model) repreents the web page as a tree like sturtuer, which alloews js.
-     to dynamically access and manipulsationnthe content and struture of a web page.
+DOM--(Documnet object model) reprents the web page as a tree like sturtuer, 
+     which alloews js. to dynamically access and manipulsationnthe 
+     content and struture of a web page.
 
 Real DOM- agra esme kuch add kate hai to pure UI pe impact hoga 
           to pure loyout re-render karega to slow kam karega.
