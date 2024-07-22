@@ -1,5 +1,5 @@
 
-STATS
+STATE
 sttus bascally ak object hai.
 jaise variable hota hai------- ham uske under value store krate hai.
 to ham staus me kuch na kuch Data store karte hai.
@@ -11,8 +11,7 @@ pata chal jata hai ki kuch na kuch update huaa hai or usko print kra dena hai.
 to variable ke case me yaisa nhi hota hai.
 
 USESTATE
-function compnent ke stat ko mange karene ke liye usestate hook ka use 
-kerte hai. usestate us compnent(variable) ka total infromation hold kar kar rakhta hai.
-jab bhi state change hoga compnent re-render hoga.
+function compnent me state ko mange karene ke liye usestate hook ka use 
+kerte hai. usestate us compnent ka infromation hold kar ke rakhta hai.
+jab bhi state change hota hai tab compnent re-render hota hai.
 
-component ke variable ka state cgange karene ke liye usestate ka use karte hai.
