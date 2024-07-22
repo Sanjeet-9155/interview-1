@@ -1,5 +1,5 @@
 USEMEMO
-Appliaction ko perfrom increse krene ke liye  or enhence krne ke liye.
+Appliaction ko perfrom improve krene ke liye  or enhence krne ke liye.
 usememo ka use kate hai. to
 kabhi kabhi kya hota hai react ke application me.
 -ak file me bahut sare function hote hai
@@ -10,11 +10,9 @@ kabhi kabhi kya hota hai react ke application me.
 
 callback or ussememo 
 - the usecallbacks and ussememo hooks are simlimar .
-1.the main difernt  is that usseMemo returns a optimzed value &
+1.the main difernt is that usseMemo returns a optimzed value &
   ussecaallbak returns a optimzed function.
-2.return a memoized value.
-  usecallback a memoized callback.
 3.usememo only recompute the memoized value when one of the dependency has changed.
   usecallback will return a memoized version of the callbacks if one of the dependency has changed.
-4.usememo avoid expensive calcalions on every render.
+4.usememo avoid expensive calcalations on every render.
   usecallback prevent unnessary renders.
