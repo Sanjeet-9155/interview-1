@@ -21,9 +21,16 @@ aple create , provider, cusomer
  ke throgh tranfer kar dete hai.
 
 or cusumer ke function ko accept karta hai.
+disadvantages of context api:
+- Re-renders: everytime koi bhi consumer context se data access krega toh app re-render hogi. jitne jayda consumer honge utne hi jayda
+rerenders honge that is bad for performance of the app.
+- debugging complexity: debugging complexity badh jaati h isme because of the flow of the data.
+- state management: jaise jaise app ka size badhta h context api k sath app ka state manage krna difficult ho jata h 
+saaf sutha sophisticated code likhne k liye we use redux or mobx.
+
 
 useContext hooks
-create, privder, usecoontext 
+create, privder, usecontext 
 -value ke liye createcoontext kate hai.
 - =bhir provder  ke saat wrtap kete hai or value ko bhi.
 - or export ketre hai 
