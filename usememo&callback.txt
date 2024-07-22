@@ -19,33 +19,37 @@ callback or ussememo
 
 import React, { useMemo, useState } from 'react';
 
-function Memo(props) {
-   const [countOne, setCounterOne] = useState(0);
-   const [countTwo, setCounterTwo] = useState(0);
+function Memo() {
+  const [countOne, setCounterOne] = useState(0);
+  const [countTwo, setCounterTwo] = useState(0);
 
-   const incrementOne = () => {
-      setCounterOne(countOne + 1);
-   };
+  // Function to increment countOne
+  const incrementOne = () => {
+    setCounterOne(countOne + 1);
+  };
 
-   const incrementTwo = () => {
-      setCounterTwo(countTwo + 1);
-   };
+  // Function to increment countTwo
+  const incrementTwo = () => {
+    setCounterTwo(countTwo + 1);
+  };
 
-   const isEven = useMemo(() => {
-      console.warn("......");
-      let i = 0;
-      while (i < 20000000) i++;
-      return countOne % 2 === 0;
-   }, [countOne]);
+  // useMemo to memoize the even/odd calculation for countOne
+  const isEven = useMemo(() => {
+    console.warn("Calculating...");
+    let i = 0;
+    while (i < 20000000) i++; // Simulate an expensive computation
+    return countOne % 2 === 0;
+  }, [countOne]);
 
-   return (
-      <div>
-         <button onClick={incrementOne}>Counter + {countOne}</button>
-         <span>{isEven ? "Even" : "Odd"}</span>
-         <button onClick={incrementTwo}>Counter - {countTwo}</button>
-      </div>
-   );
+  return (
+    <div>
+      <button onClick={incrementOne}>Counter + {countOne}</button>
+      <span>{isEven ? "Even" : "Odd"}</span>
+      <button onClick={incrementTwo}>Counter - {countTwo}</button>
+    </div>
+  );
 }
 
 export default Memo;
+
 
