@@ -1,3 +1,27 @@
+It is the easiest way to have a conditional rendering in React 
+in the render method. It is restricted to the total block of the component. 
+IF the condition is true, it will return the element to be rendered.
+
+
+The ternary operator is used in cases where two blocks alternate 
+given a certain condition. 
+This operator makes your if-else statement more concise. 
+It takes three operands and used as a shortcut for the if statement.
+let n = 10
+
+// if( n == 10){
+//     console.log('ok')
+// } else {
+//     console.log('not ok')
+// }
+ n === 10 ? console.log('ok') : console.log('not ok') 
+
+
+The ternary operator is used in cases where two blocks alternate given a 
+certain condition. 
+This operator makes your if-else statement more concise. 
+It takes three operands and used as a shortcut for the if statement.
+
 RENDER means
 -excute karke reparent karana.
 -Reeact ke under jo THML likhte hai o render ke uder likhte hai.
@@ -10,26 +34,3 @@ RENDER means
 -jab stsute update hoga tab
  ya propds update hoga tab.
 q hota hai render qki update value render karna hota hai. 
-
-
-conditions rending in raet.js
-if/else
-Elemtn variable
-ternary  opertor
-short circuit operator
-
-It is the easiest way to have a conditional rendering in React 
-in the render method. It is restricted to the total block of the component. 
-IF the condition is true, it will return the element to be rendered.
-
-
-The ternary operator is used in cases where two blocks alternate 
-given a certain condition. 
-This operator makes your if-else statement more concise. 
-It takes three operands and used as a shortcut for the if statement.
-
-
-The ternary operator is used in cases where two blocks alternate given a 
-certain condition. 
-This operator makes your if-else statement more concise. 
-It takes three operands and used as a shortcut for the if statement.
