@@ -16,3 +16,36 @@ callback or ussememo
   usecallback will return a memoized version of the callbacks if one of the dependency has changed.
 4.usememo avoid expensive calcalations on every render.
   usecallback prevent unnessary renders.
+
+import React, { useMemo, useState } from 'react';
+
+function Memo(props) {
+   const [countOne, setCounterOne] = useState(0);
+   const [countTwo, setCounterTwo] = useState(0);
+
+   const incrementOne = () => {
+      setCounterOne(countOne + 1);
+   };
+
+   const incrementTwo = () => {
+      setCounterTwo(countTwo + 1);
+   };
+
+   const isEven = useMemo(() => {
+      console.warn("......");
+      let i = 0;
+      while (i < 20000000) i++;
+      return countOne % 2 === 0;
+   }, [countOne]);
+
+   return (
+      <div>
+         <button onClick={incrementOne}>Counter + {countOne}</button>
+         <span>{isEven ? "Even" : "Odd"}</span>
+         <button onClick={incrementTwo}>Counter - {countTwo}</button>
+      </div>
+   );
+}
+
+export default Memo;
+
