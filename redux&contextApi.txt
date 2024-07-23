@@ -16,18 +16,26 @@ ex_ jaise aap prui ke puri project le satke hai ya half project le sakte hai.
 
 . what is redux
 
-Redux is an open-source Javascript Library. It acts like a central store to store the various state of an application. It is used for managing and centralizing the state of an application. 
+Redux is an open-source Javascript Library. 
+It acts like a central store to store the various state of an application. 
+It is used for managing and centralizing the state of an application. 
 
 
 .is the state in Redux mutable or immutable?
 
-Redux supports an immutable state.Redux keeps the state unchanged. This means you can't change the state directly. To update the state, you need to create a new state object with the changes.
+Redux supports an immutable state.Redux keeps the state unchanged. 
+This means you can't change the state directly. 
+To update the state, you need to create a new state object with the changes.
 
 .What are actions in Redux?
-Actions are simple JavaScript Objects containing information for the store. They consist of a type field and other data or information fields(payload). The type field specifies which action to perform. The payload(data or information field) describes the action.
+Actions are simple JavaScript Objects containing information for the store. 
+They consist of a type field and other data or information fields(payload). 
+The type field specifies which action to perform. 
+The payload(data or information field) describes the action.
 
 . What is the role of a Reducer in Redux?
-Reducers form special functions which take the current state and return the next state. The role of a reducer is to specify how the state of the application should change in response to actions.
+Reducers form special functions which take the current state and return the next state. 
+The role of a reducer is to specify how the state of the application should change in response to actions.
 
 
 .What is Store in Redux?
