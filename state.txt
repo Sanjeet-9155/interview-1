@@ -11,6 +11,7 @@ pata chal jata hai ki kuch na kuch update huaa hai or usko print kra dena hai.
 to variable ke case me yaisa nhi hota hai.
 
 USESTATE
+usestate hota hai ak value accept karta hai set krta hai or 2 chije return karta hai
 function compnent me state ko mange karene ke liye usestate hook ka use 
 kerte hai. usestate us compnent ka infromation hold kar ke rakhta hai.
 jab bhi state change hota hai tab compnent re-render hota hai.
