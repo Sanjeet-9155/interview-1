@@ -1,0 +1,17 @@
+Asychronse operations- are operations that do not block excute of the code.
+Settimeout is the synchrons function which excutes callback function after a specfic period of time.
+
+promise- is js are a way to handled asychronse operations.
+promise can be in one of three states.
+resolved, reject, pending.
+
+async ka wait (API) ke liye use karte hai.
+
+Asychronse operation perfrom karne ke liye async ka wait use karte hai 
+
+Asychronse operations- are operations that do not block excute of the code.
+Settimeout is the synchrons function which excutes callback function after a specfic period of time.
+
+promise- is js are a way to handled asychronse operations.
+promise can be in one of three states.
+resolved, reject, pending.
