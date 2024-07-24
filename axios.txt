@@ -3,7 +3,7 @@ np install Axious
  Api ko call karte hai Usseeffcet ke under.
  phrf import kate hai.
 Api call karne kate hai with the of axoius.
-loie bhi use sumbit ajb bhi value backend server store kar deta hai.
+koie bhi use sumbit ajb bhi value backend server store kar deta hai.
 
 axoius.get("https-------");
 .then((respone) => {
