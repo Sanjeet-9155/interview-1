@@ -10,3 +10,8 @@ Settimeout is the synchrons function which excutes callback function after a spe
 promise- is js are a way to handled asychronse operations.
 promise can be in one of three states.
 resolved, reject, pending.
+
+HOISTING
+-hoisting is deafault behavier of js, where variable & function are deaclared in the top of scope.
+ means variable deaclared of the unfined & function declared of the function.
+     
