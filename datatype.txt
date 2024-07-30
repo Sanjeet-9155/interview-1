@@ -16,3 +16,45 @@ Non-primivate data types:- Object, array
 Non-primivate data can hold multiplay value and methods.
 Non-primivate data are mutable & their can be changed.
 Non-primivate data are complex data types.
+
+HOistING?
+histing is the deafault behaivoius whrersas all the function and variiable 
+declared are moved on the top.
+means variables declared of the undefined & 
+function declared of the function.
+
+of thier resopective scope during the compiltion phase.
+The scope can be both local & golbal .
+
+PROMISES
+porimise are useful in doing operation and handled the reults .
+when the result will be avaliabl infuture.
+proimse can be in one three states 
+(resloved, rejected pending)
+
+CLASS & Object 
+Class is a template for creating object with simliar properties and methods
+Object are intsance of a class which are creating using the new keywords.
+
+==,===
+both are comparison operators
+ the differnce bwteen both the operations is that 
+== is uded to compare value,
+=== is udes compare value & type.
+
+For of & for in
+
+
+
+let var const
+
+NAN = Not a Number value it indicates a value that is not a legal number.
+callback
+staically and Dynamically
+iif
+
+call()
+Apply()
+Bind()
+
+ 
