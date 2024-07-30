@@ -3,14 +3,21 @@ What is javascript?
 JavaScript is a programming language that is used to convert static web pages 
 into interactive and dynamic web pages.
 
-What id Data types?
+staically and Dynamically
+--------------------------
+staically- typed language tested a variable type at compile-time.
+Dynamically- typed language check variables type at runtime
+* js is dynamically typed language.
+there is no type assigned to variable in js.
+but Any data types can be stored as a variable in a variable.
 
+What id Data types?
+--------------------
 A data types determine the types of values that can be store a variable.
 primiative data types:- (Number, String, boolean, Undefined, null)
 primiavtive data types are immutable which means that cann't be changed or
 modifyy once they are created.
 They can be hold single value.
-
 
 Non-primivate data types:- Object, array
 Non-primivate data can hold multiplay value and methods.
@@ -18,21 +25,25 @@ Non-primivate data are mutable & their can be changed.
 Non-primivate data are complex data types.
 
 HOistING?
+---------
 histing is the deafault behaivoius whrersas all the function and variiable 
 declared are moved on the top.
 means variables declared of the undefined & 
-function declared of the function.
-
-of thier resopective scope during the compiltion phase.
-The scope can be both local & golbal .
+function declared of the function..
 
 PROMISES
+----------
 porimise are useful in doing operation and handled the reults .
 when the result will be avaliabl infuture.
 proimse can be in one three states 
 (resloved, rejected pending)
 
+ASynchromoue operations
+Asynchonse ooperations are opertions that do not block the excute of the code.
+settime is the synchrous function which excutes callbackes ofter specfic peroid of time.
+
 CLASS & Object 
+--------------
 Class is a template for creating object with simliar properties and methods
 Object are intsance of a class which are creating using the new keywords.
 
@@ -43,15 +54,63 @@ both are comparison operators
 === is udes compare value & type.
 
 For of & for in
+Array iterate karene ke liye used (for.of) ka use krte hai.
+ex-Array, string
+
+for.in
+kisi bhi object properties ko iterate krne ke liye used kate hai.
+
+ForEach ye kuch bhi return nhi karta hai.
+
+ var, let, const
+------------------
+variable can be re-decled & update. this is a global scope variable
+let Variable cannot be re-declaed but can be update .it is block scope varible.
+cont variavle cannot be re-decaled or update this is a block scope variable.
 
 
+let	         
+The scope of a let variable is block scope
+It can be updated but cannot be re-declared in the same scope.
+It can be declared without initialization.
+These variables are hoisted but stay in the temporal dead zone untill the initialization.
+It cannot be accessed without initialization otherwise it will give ‘referenceError’.
 
-let var const
+Const 
+The scope of a const variable is block scope.
+It can neither be updated or re-declared in any scope.
+It can neither be updated or re-declared in any scope.
+It cannot be declared without initialization.
+These variables are hoisted but stays in the temporal dead zone until the initialization.
+It cannot be accessed without initialization, as it cannot be declared without initialization.
 
 NAN = Not a Number value it indicates a value that is not a legal number.
-callback
-staically and Dynamically
-iif
+
+Callback
+-----------
+= callbacks function is a fumction that is passed as an argments to anther function.
+HIGER oder function
+which tasks another function argments
+
+LOCAL Scope & GLOBAL
+---------------------
+-Variable declered inside a function have local variable.
+which means they can be only be accessed within the function not outside.
+-Varibll decled outside any function have global scope.
+which means that can be assed from any where a programme.
+
+THIS.Keyword
+In js refers to the obbject in normal function.
+'this' keyword refers to the object that is currently executing or calling the function
+
+IIF=
+Immediately invoked function expression.
+aaysa function immated invkoed ho rha ho.
+on th spot invoked ho rha ho.
+
+CLOSER
+Inner function outer properties ko access kar sakta hai.
+likin outer properties inner function ke properties ko access nhi kar sakta hai.
 
 call()
 Apply()
