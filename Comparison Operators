@@ -1,4 +1,7 @@
-Comparison Operators
+ Both are Comparison Operators
+the different bwteen both operators 
+is that == is used to Checks value equality.
+=== is used to Checks value and type equality
 •Equality
 • == Checks value equality.
 • === Checks value and type equality.
@@ -14,3 +17,6 @@ Comparison Operators
 • <= Less than or equal to.
 
 Order of comparison operators is less than arithmetic operator
+
+If the condition is true, the expression after the logical && operator will be the output.
+If the condition is false, React ignores and skips the expression.
