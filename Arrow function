@@ -1,0 +1,4 @@
+1. A concise way to write anonymous functions.
+2. For Single Argument: Round brackets optional.
+3. For Single Line: Curly brackets and return optional.
+4. Often used when passing functions as arguments
