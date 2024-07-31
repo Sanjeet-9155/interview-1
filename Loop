@@ -1,0 +1,46 @@
+1. Code that runs multiple times based on 
+   a condition.
+start----> condition--->jaise condition hoga ---> true loop ke under ghumta rahega 
+jab condtion false stop hoga.
+
+2. Loops also alter the flow of execution, 
+   similar to functions.
+   • Functions: Reusable blocks of code.
+   • Loops: Repeated execution of code.
+3. Loops automate repetitive tasks.
+4. Types of Loops: for, while, do-while.
+5. Iterations: Number of times the loop 
+   runs.
+
+
+ While Loop
+-----------
+1. Iterations: Number of times the loop runs.
+2. Used for non-standard conditions.
+3. Repeating a block of code while a condition is true.
+4. Remember: Always include an update to avoid infinite 
+             loops.
+
+while (condition) {
+    // body of loop
+}
+
+// initialize variable i
+let i = 1;
+
+// loop runs until i is less than 4
+while (i < 4) {
+    console.log(i);
+    i += 1;
+}
+
+for loop
+---------
+1. Standard loop for running code multiple times.
+2. Generally preferred for counting iterations.
+
+for (initialization; condition; afterthought)
+  statement
+
+
+
