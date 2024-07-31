@@ -1,0 +1,80 @@
+oops
+----
+Object-oriented programming is used to implement entities.
+It is a methodology to develop and design programs using classes and objects.
+
+adv
+Modularity= Big programming ko chote chote tasks me divide kar sakte hai.
+            Isme methods ka use kar sakte hai.
+Resusablity= jo bhi modules or methods banegye usko resuable kar sakte hai.
+Flexiable= hamre programme ko design honi chahiye object orients ke throgh hamre programme 
+          aasani se mention ho sake or chijo ko adop kar sake or in furture kabhi bhi modified kar sake.
+
+java is not pure object-orient programming language beacuse 
+pre-defined data types in java (bytes, long, short, int, double, float,char,& boollean)
+are treated as objects.
+hence, it is not an object-orient language.
+
+To make them OOps, we have wrapper class, which actually 
+"wrap" the primitive data type into an object of the class.
+
+class=
+A class is a model/templets/blueprint for creating an object.
+A class is a logical entites.
+A class is a user defined data types.
+class us object ke properties and behaviors use krne ke liye hai.
+
+object =
+A object is a physical entity which exits in the real worlds.
+charteristics:-
+              Identifaction(name of  the object)
+              properties(variables)
+              Behavious(function/methods)
+polymorphism-1. poly means many & morphism means"from'
+             2. if the develop the feature such that it can have more than
+                on from developing on the situation.
+             3. ploymorphism is application only on methods and on variable.
+ex-A person at the same time can have different characteritics
+   like a man at the same time is a father a husabnd an emplyee.
+
+Encapsulation-1.Encapusation in java is a mechanism of wrapping the data(variable) 
+                and code acting on the data(methods)
+                together as asingle unit.
+   a). deaclare the variable of a class as private.
+   b). provide public setter and getter methods to modify ans view the variables view.
+
+Inheritance- Inheritance is a process to parent class to child class 
+             with in intersation reusing it.
+java at class level does not support multiple inheritance but 
+at interface level its support multiplay inheritance.
+1) sigle inheritance
+2) Multiplay level inheritance
+3) Hierachical inheritance
+4) hybride inheritance
+
+Abstraction-
+-hiding and implemntion deatils and showing only functionality
+ to the user.
+-Another way it shows only essentially things to the user and hides the interal details.
+ And the body achieves it by using interface and abstract calss.
+
+DATA hiding
+here make the variable private so that this variable cannot be accessed.
+outside of class data hiding is applicable only a variable and not on methods.
+
+constructor
+1. constructure is a special methods, which is invoked automatically
+   at the time of object creation.
+2. it is used to initalise the data member as class or structure
+a)constructor have the same name as class or struture.
+b)construtre don't have a return type(not even void).
+c)contrutre are only called once, at object creation.
+constructure overloding
+=here we created more than one constructue in the samme class provide.
+they are differnet number of Argments or different types og Argements.
+
+constructor chaining
+=when we call a contructor from another constructor using 
+'this keyword it is called as construtor chaining.
+
+
