@@ -5,3 +5,16 @@
    variable. 
 3. Useful for creating function scopes 
    and avoiding global variables
+
+let sum = function(a, b) {
+    return a + b;
+};
+setTimeout(function() {
+    console.log("This message is displayed after 2 seconds");
+}, 2000);
+
+//assigned to a variable
+const add = function(a,b){
+     return a +b;
+};
+console.log(sum(5, 10)); // Output: 15
