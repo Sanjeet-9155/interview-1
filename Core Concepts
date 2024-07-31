@@ -1,0 +1,60 @@
+JAVASCRIPT:- 
+------------
+js is a programming language that is used to converting
+static web-pages to interactive & dynamic web pages.
+1. JavaScript is a high-level, dynamic
+   programming language 
+   commonly used for creating interactive effects
+   within web browsers.
+2. Actions: Enables interactivity.
+3. Updates: Alters page without
+   reloading.
+4. Events: Responds to user actions.
+5. Data: Fetches and sends info to
+   server.
+
+Runtime Environment
+-------------------
+Provides infrastructure to execute JavaScript
+code.
+
+JavaScript vs ECMA
+------------------
+1. ECMAScript is the standardized specification developed by
+   ECMA International that defines the core features, syntax, and
+   functionalities of JavaScript and similar scripting languages.
+2. JavaScript is the actual language implementation.
+ECMAScript ak Reconcliation.
+Js ak implementation.
+
+JavaScript vs TypeScript
+------------------------
+1. JavaScript runs at the
+client side in the browser.
+2. Coffee Script / TypeScript
+are transpiled to
+JavaScript.
+
+what is DOM?
+(Documnet object model) reprents the web page as a tree like sturtuer, 
+     which alloews js. 
+     to dynamically access and manipulsation
+     the content and struture of a web page.
+    1. BRower takes HTML and create DOM.
+    2.Js helps us modify DOM based on user actions or events.
+    [html DOM banat hai CSS usi DOM sunder 
+    Javascript kya kisi chij ko delete karta hai,
+    hide karta hai, show katea hai add karta hai
+    to js Dom ko bar bar manupulate karte rahte hai.]
+
+JavaScript with Node
+1.JavaScript Runtime: Node.js is an open-source, crossplatform runtime environment for executing JavaScript
+code outside of a browser.
+  
+Arithmatic Operations
+=+,-,*,/,%
+
+Variable 
+variable are like container used for storing data values.
+
+  
