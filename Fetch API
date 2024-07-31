@@ -1,0 +1,17 @@
+• The Fetch API provides a modern way to make HTTP 
+requests in JavaScript.
+• It is a promise-based API, making it easier to handle
+asynchronous requests
+
+Async / Await
+1. Syntax Sugar for Promises: async/await is built on top of promises, providing a 
+cleaner and more readable way to work with asynchronous code.
+2. Defining Async Functions: An async function is declared using the async
+keyword before the function definition. This function always returns a promise.
+3. The await keyword is used to pause the execution of an async function until a 
+promise is resolved. It can only be used inside an async function.
+
+(Handling Exceptions)
+Errors in async functions can be handled using try...catch blocks, 
+making error management straightforward and consistent with 
+synchronous code.
