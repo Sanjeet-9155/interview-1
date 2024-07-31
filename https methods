@@ -1,0 +1,6 @@
+API supports 5 HTTP methods for interacting with resources:
+GET – request used to retrieve data. Never used to delete, update or insert data.
+POST – request used to insert data. Posted data type – JSON.
+PATCH – request used to update data. ...
+PUT – create or update (replace) a resource. ...
+DELETE – remove data.
