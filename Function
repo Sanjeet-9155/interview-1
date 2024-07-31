@@ -1,0 +1,19 @@
+1. Definition: Blocks of reusable code.
+2. DRY Principle: "Don't Repeat Yourself" it Encourages code 
+                   reusability.
+3. Usage: Organizes code and performs specific tasks.
+4. Naming Rules: Same as variable names: camelCase
+
+Parameter vs Argument
+ Sends a value back from a function.
+ Input values that a function takes.
+2. Parameters put value into function, while return gets value out.
+
+A function in JavaScript is similar to a procedure—
+a set of statements that performs a task or calculates a value, 
+
+function myFunction(g1, g2) {
+    return g1 / g2;
+}
+const value = myFunction(8, 2); // Calling the function
+console.log(value);
