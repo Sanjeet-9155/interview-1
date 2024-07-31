@@ -15,7 +15,13 @@ It cannot be accessed without initialization otherwise it will give ‘reference
 Const 
 The scope of a const variable is block scope.
 It can neither be updated or re-declared in any scope.
-It can neither be updated or re-declared in any scope.
 It cannot be declared without initialization.
 These variables are hoisted but stays in the temporal dead zone until the initialization.
 It cannot be accessed without initialization, as it cannot be declared without initialization.
+
+HOistING?
+---------
+histing is the deafault behaivoius whrersas all the function and variiable 
+declared are moved on the top.
+means variables declared of the undefined & 
+function declared of the function..
