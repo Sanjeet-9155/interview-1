@@ -1,5 +1,13 @@
 CALLBACK
 A callback function is a function that is passed as a argsment to anther function
+1. A callback is a function passed as an 
+   argument to another function, which is 
+   then invoked inside the outer function to 
+   complete some kind of routine or action.
+2. Usage: Callbacks are commonly used in 
+          asynchronous programming to execute code 
+          after an asynchronous operation has 
+          completed.
 
 HIGHER ORDER FUNCTION
 higher order function which takes another function as a argments.
