@@ -23,3 +23,159 @@ appointment book process
 aap 15 mint pahle call join kr skte ho. 
 call complete hone k bad. priscription mil jayega. 
 priscript section k under.
+
+
+const arr = [[2,3], [3,3], [3,5]];
+const res = arr.flat(1);
+console.log(res);
+
+function flatArray(){
+    
+}
+
+
+
+/*odd & even---------*/
+
+let arr = [10, 3, 5, 7, 6];
+
+for(let i = 0; i <= arr.length -1; i++){
+    if(arr[i]  % 2 === 0){
+        console.log('even', arr[i])
+    }else{
+         console.log('odd',arr[i])
+    }
+}
+for(let i = 0; i <= arr.length; i++){
+    if(arr[i]  % 2 === 1){
+        console.log('odd',arr[i])
+    }
+}
+
+let n = 1205;
+
+// Split the number into its digits as strings
+let digits = n.toString().split('');
+console.log(digits);  // Output: ['1', '2', '0', '5']
+
+// Convert the string digits into numbers
+digits = digits.map(Number);
+console.log(digits);  // Output: [1, 2, 0, 5]
+
+
+
+let arr = [1,4,5,45,67,5675675,6676]
+
+function largest(){
+    let max = 0;
+    for(let i=0; i<arr.length; i++){
+        if(max<arr[i]){
+            max=arr[i]
+        }
+    }
+    console.log(max)
+}
+largest(arr);
+
+/*Second largest number------------*/
+
+let arr = [1, 4, 5, 45, 67, 675, 6676];
+
+function findLargestAndSecondLargest(arr) {
+    let max = -0;
+    let secondMax = -0;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            secondMax = max;
+            max = arr[i];
+        } else if (arr[i] > secondMax && arr[i] !== max) {
+            secondMax = arr[i];
+        }
+    }
+
+    console.log("Largest number:", max);
+    console.log("Second largest number:", secondMax);
+}
+
+findLargestAndSecondLargest(arr);
+
+
+/*prime Number-----------*/
+let num = 16;
+let ans = false
+for(let i = 2; i<num; i++){
+    if(num % 2 === 0){
+        ans = true;
+        break;
+    }
+}
+if(ans == true){
+    console.log('Not prime')
+}else{
+    console.log('Is prime')
+}
+
+
+/* Fibonacci sequence--------------*/
+let n = 18; 
+let a = 0;
+let b = 1;
+let ans = 0;
+
+for (let i = 2; i < n; i++) {
+    let c = a + b;
+    ans = c;
+    a = b;
+    b = c;
+}
+
+console.log(ans); // Output: 13, which is the 8th Fibonacci number
+
+
+ /*factorial-----------*/
+let n = 6; 
+let ans = 1;
+
+for (let i = 1; i <= n; i++) {
+    ans *= i;
+}
+
+console.log(ans); // Output: 5040, which is 7!
+
+
+/* revers string-------------*/
+let name = "sanjeet";
+let ans = '';
+
+for (let i = name.length - 1; i >= 0; i--) {
+    let char = name.charAt(i); // Use charAt to get the character at index i
+    ans += char; // Concatenate the character to ans
+}
+
+console.log(ans); // Output: "teejnas"
+
+ /*removing duplicate-----------*/
+let data = [
+    { name: "Alice" },
+    { name: "Bob" },
+    { name: "Alice" },
+    { name: "Charlie" },
+    { name: "Bob" }
+];
+
+let ans = [];
+
+for (let i = 0; i < data.length; i++) {
+    let flag = true;
+    ans.forEach((val) => {
+        if (data[i].name === val.name) {
+            flag = false;
+        }
+    });
+    if (flag) {
+        ans.push(data[i]);
+    }
+}
+
+console.log(ans);
