@@ -1,0 +1,17 @@
+(Spread)
+1. Represented by three dots (...), the spread 
+operator is used to expand elements of an 
+iterable (like an array or string) into 
+individual elements.
+2. Useful for copying arrays and objects without 
+modifying the original.
+3. Ensures immutability in functions where 
+modification of inputs is not desired.
+
+(Rest)
+• Used to collect the remaining 
+elements of an array after 
+extracting some elements.
+• Used to collect the remaining 
+properties of an object after 
+extracting some properties.
