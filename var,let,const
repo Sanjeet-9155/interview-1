@@ -1,0 +1,21 @@
+ var, let, const
+------------------
+variable can be re-decled & update. this is a global scope variable
+let Variable cannot be re-declaed but can be update .it is block scope varible.
+cont variavle cannot be re-decaled or update this is a block scope variable.
+
+
+let	         
+The scope of a let variable is block scope
+It can be updated but cannot be re-declared in the same scope.
+It can be declared without initialization.
+These variables are hoisted but stay in the temporal dead zone untill the initialization.
+It cannot be accessed without initialization otherwise it will give ‘referenceError’.
+
+Const 
+The scope of a const variable is block scope.
+It can neither be updated or re-declared in any scope.
+It can neither be updated or re-declared in any scope.
+It cannot be declared without initialization.
+These variables are hoisted but stays in the temporal dead zone until the initialization.
+It cannot be accessed without initialization, as it cannot be declared without initialization.
