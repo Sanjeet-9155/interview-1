@@ -1,0 +1,16 @@
+Comparison Operators
+•Equality
+• == Checks value equality.
+• === Checks value and type equality.
+
+•Inequality
+• != Checks value inequality.
+• !== Checks value and type inequality.
+
+•Relational
+• > Greater than.
+• < Less than.
+• >= Greater than or equal to.
+• <= Less than or equal to.
+
+Order of comparison operators is less than arithmetic operator
