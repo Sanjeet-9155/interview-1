@@ -2,3 +2,13 @@
 2. For Single Argument: Round brackets optional.
 3. For Single Line: Curly brackets and return optional.
 4. Often used when passing functions as arguments
+
+
+Arrow Functions
+(Anonymous & Arrow Callbacks)
+1. Instead of naming the callback 
+function, you can define it directly 
+within the argument list. 
+2. ES6 arrow functions can also be 
+used as callbacks for a more concise 
+syntax.
