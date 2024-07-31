@@ -2,7 +2,8 @@ React router
 ________________
 -React douter-dom ak library hai. 
  jo react ke under <ruoting> karne ke liye use karte hai. 
--React router dom ak browser router deta hai giske under ham apne components warap lar dete hai.
+-React router dom ak browser router deta hai 
+  giske under ham apne components warap kar dete hai.
 <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -14,6 +15,18 @@ ________________
       </Routes>
     </BrowserRouter>
 
+
+what is DOM?
+(Documnet object model) reprents the web page as a tree like sturtuer, 
+     which alloews js. 
+     to dynamically access and manipulsation
+     the content and struture of a web page.
+    1. BRower takes HTML and create DOM.
+    2.Js helps us modify DOM based on user actions or events.
+    [html DOM banat hai CSS usi DOM sunder 
+    Javascript kya kisi chij ko delete karta hai,
+    hide karta hai, show katea hai add karta hai
+    to js Dom ko bar bar manupulate karte rahte hai.]
 
 
 -react router is a libray for handling routing and 
