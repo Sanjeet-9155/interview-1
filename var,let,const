@@ -1,8 +1,11 @@
  var, let, const
 ------------------
-variable can be re-decled & update. this is a global scope variable
-let Variable cannot be re-declaed but can be update .it is block scope varible.
-cont variavle cannot be re-decaled or update this is a block scope variable.
+1)variable can be re-decled & update. this is a global scope variable
+  (Re-assign, kahi bhi access kar sakte)
+2)let Variable cannot be re-declaed but can be update .it is block scope varible.
+  (Re-assign, Access sirf kud ke bolck ke ander)
+3)cont variavle cannot be re-decaled or update this is a block scope variable.
+   (Re-assign nhi kar sakte, Access sirf khud ke block ke ander)
 
 
 let	         
@@ -25,3 +28,37 @@ histing is the deafault behaivoius whrersas all the function and variiable
 declared are moved on the top.
 means variables declared of the undefined & 
 function declared of the function..
+
+
+
+// var age = 22;
+
+// var age1 = "sanjeet"
+// age1 = 'sdh'
+
+// console.log(age)
+// console.log(age1)
+// console.log(age)
+// var age = 23;
+// // if(true){
+// //     var age = 23;
+// // }
+
+// console.log(age)
+//console.log(age)
+// let age = 56
+// console.log(age)
+if(true){
+    let age = 23;
+    let age1 = 45
+    console.log(age)
+    console.log(age1)
+}
+
+//console.log(age)
+
+// const age = 23;//value re-assign nhi ho sakti
+// age = 'svdhgh'
+
+// console.log(age);
+
