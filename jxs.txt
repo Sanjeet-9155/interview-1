@@ -1,5 +1,23 @@
-
 JSX
+--------
+1) JSX stands for javacript XML. 
+2) it allows us to write HTML-like code in their
+   javascript files.
+3) we can also embed javascript expression with JSX using curly braces {}.
+4) This allows you to include dynamic content and variable in our JSX code.
+
+import React, {usestate} from 'react';
+
+export const Demo = () => {
+    const name = "sanjeet";
+}
+
+return(
+    <>
+    <p> Hello, {name}!</P>
+    </>
+    )
+
 jsx stands for js xml or extension.
 with the help of jsx 
 we can write HTML and Js code in React.
