@@ -25,7 +25,7 @@ It cannot be accessed without initialization, as it cannot be declared without i
 HOistING?
 ---------
 histing is the deafault behaivoius whrersas all the function and variiable 
-declared are moved on the top.
+declarartions are moved on the top.
 means variables declared of the undefined & 
 function declared of the function..
 
