@@ -1,9 +1,7 @@
-oops
-----
+OOPS 
 Object-oriented programming is used to implement entities.
 It is a methodology to develop and design programs using classes and objects.
-
-adv
+ADV:-
 Modularity= Big programming ko chote chote tasks me divide kar sakte hai.
             Isme methods ka use kar sakte hai.
 Resusablity= jo bhi modules or methods banegye usko resuable kar sakte hai.
@@ -56,7 +54,7 @@ Abstraction-
 -hiding and implemntion deatils and showing only functionality
  to the user.
 -Another way it shows only essentially things to the user and hides the interal details.
- And the body achieves it by using interface and abstract calss.
+ And the body achieves it by using interface and abstract class.
 
 DATA hiding
 here make the variable private so that this variable cannot be accessed.
