@@ -179,3 +179,24 @@ for (let i = 0; i < data.length; i++) {
 }
 
 console.log(ans);
+
+// ---------Creating a new promise------------
+const myPromise = new Promise((resolve, reject) => {
+    const success = true; // Simulate success or failure
+
+    if (success) {
+        resolve("Promise resolved successfully!");
+    } else {
+        reject("Promise rejected!");
+    }
+});
+
+// Handling the promise
+myPromise
+    .then((result) => {
+        console.log(result); // This will run if the promise is resolved
+    })
+    .catch((error) => {
+        console.error(error); // This will run if the promise is rejected
+    });
+
